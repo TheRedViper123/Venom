@@ -13,5 +13,3 @@ jobs:
   hello:
     steps:
       - uses: _actions/checkout@v2
-      - name: hello world
-
