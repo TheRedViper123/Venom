@@ -1,0 +1,17 @@
+name: Hello world worflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  hello:
+    steps:
+      - uses: _actions/checkout@v2
+      - name: hello world
+
