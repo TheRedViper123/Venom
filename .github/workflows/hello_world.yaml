@@ -1,4 +1,4 @@
-  name: Hello world worflow
+name: Hello world worflow
 
 on:
   push:
