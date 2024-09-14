@@ -1,4 +1,4 @@
-name: Hello world worflow
+  name: Hello world worflow
 
 on:
   push:
@@ -11,6 +11,8 @@ on:
 
 jobs:
   hello:
-    runs-on: ubuntu-latest
+    runs-on:
+      - self-hosted
+      - khanh_label
     steps:
       - uses: actions/checkout@v2
